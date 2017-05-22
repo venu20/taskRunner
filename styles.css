@@ -1,0 +1,121 @@
+body {
+    background-color: #d7d7d7;
+}
+.header p{
+    font-size: 24px;
+    font-weight: normal;
+}
+.header h2{
+    margin-bottom: 0px;
+}
+.page-header {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Georgia,serif;
+    border-bottom: none;
+}
+.table {
+    overflow: scroll;
+    border: 2px solid #ffffff;
+    margin-bottom: 0px;
+    font-family: Georgia,serif;
+}
+.customTable {
+    border: 5px solid #DEDEDE;
+    height: 323px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    overflow: scroll;
+}
+input.form-control {
+    max-width: 320px;
+    height: 40px;
+    margin-bottom: 15px;
+    background-color: #ECECEC;
+    border: 1px solid #DEDEDE;
+}
+div.container {
+    width: 800px;
+    min-height: 612px;
+    padding: 0px;
+}
+div.content {
+    overflow: hidden;
+    border-left: 10px solid #F0F0F0;
+    border-right: 10px solid #F0F0F0;
+    min-height: 460px;
+    background-color: #F0F0F0;
+}
+.header {
+   height: 150px;
+    background-color: #f0f0f0;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 10px solid #e2e2e2;
+    border-bottom: none;
+}
+.header h2{
+    font-weight: bolder;
+   font-size: 35px;
+}
+.header p{
+    color: #616161;
+    margin-left: 5px;
+    font-size: 19px;
+}
+input.btn-primary {
+    background-color: #434343;
+    border: 1px solid #434343;
+    width: 94px;
+    height: 45px;
+    font-family: georgia, serif;
+    font-size: 18px;
+}
+div.left {
+    background-color: #ffffff;
+    margin-left: 0px;
+    border-right: 3px solid #F0F0F0;
+    border-bottom: 1px solid #ffffff;
+    min-height: 433px;
+}
+tr>td>span {
+    padding-left: 10px;
+}
+div.right {
+    margin: 0px;
+    background-color: #ffffff;
+    min-height: 414px;
+    border-left: 3px solid #F0F0F0;
+}
+.table > tbody > tr:nth-child(2n) > td,
+.table > tbody > tr:nth-child(2n) > th {
+    border-top: none;
+}
+td:first-child {
+    padding-right: 0px !important;
+    padding-left: 16px !important;
+    width: 112px;
+    font-weight: bold;
+}
+td:last-child {
+     font-weight: bold;
+     text-align: right;
+}
+tbody tr:nth-child(even) {
+    background-color: #EBEBEB;
+    border-radius: 2px;
+}
+.table > tbody > tr:nth-child(2n+1) > td,
+.table > tbody > tr:nth-child(2n+1) > th {
+    background-color: #ffffff;
+    border-top: none;
+}
+.table > tbody > tr > td:nth-child(2){
+color: #666666;
+}
+.table > tbody > tr > td {
+    padding-left: 0px;
+    height: 43px;
+    vertical-align: middle;
+}
