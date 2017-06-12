@@ -1,0 +1,10 @@
+<div class="page-header">Create a Task</div>
+<form id="addTask" ng-submit="$ctrl.submit()">
+    <div class="form-group">
+        <label for="taskName">Task Name</label><input  type="text"  ng-model="$ctrl.name" class="form-control" name="name"   value="" required/>
+        <label for="Date">Date</label><input type="date" name="date" ng-model="$ctrl.date" id="datePicker" class="form-control"  value="" required/>
+        <label for="AssignedTo">Assigned To</label>
+        <input type="text" ng-model="$ctrl.assigned" name="assigned" class="form-control"  value="" required/></br>
+        <input type="submit" class="btn btn-primary" />
+    </div>
+</form>
